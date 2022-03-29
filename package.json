@@ -1,0 +1,29 @@
+{
+  "name": "api-fetch-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EttyDaniel/api-fetch-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EttyDaniel/api-fetch-data/issues"
+  },
+  "homepage": "https://github.com/EttyDaniel/api-fetch-data#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
